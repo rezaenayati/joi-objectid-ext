@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rezaenayati/joi-objectid-ext/.git"
+    "url": "https://github.com/rezaenayati/joi-objectid-ext"
   },
   "homepage": "https://github.com/rezaenayati/joi-objectid-ext/#readme",
   "bugs": {
