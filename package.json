@@ -1,7 +1,7 @@
 {
   "author": "Reza",
   "name": "joi-objectid-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Joi extension for validating MongoDB ObjectIDs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,7 +34,6 @@
     "test:coverage": "jest --coverage",
     "build": "tsc",
     "prepublishOnly": "npm run test && npm run build"
-
   },
   "license": "MIT",
   "dependencies": {
