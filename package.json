@@ -5,6 +5,14 @@
   "description": "A Joi extension for validating MongoDB ObjectIDs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaenayati/joi-objectid-ext/.git"
+  },
+  "homepage": "https://github.com/rezaenayati/joi-objectid-ext/#readme",
+  "bugs": {
+    "url": "https://github.com/rezaenayati/joi-objectid-ext//issues"
+  },
   "files": [
     "dist",
     "LICENSE",
@@ -28,7 +36,7 @@
     "prepublishOnly": "npm run test && npm run build"
 
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "joi": "17.13.3"
   },
