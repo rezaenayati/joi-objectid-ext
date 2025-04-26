@@ -1,9 +1,6 @@
-# joi-objectid-extension
+# joi-objectid-ext
 
 A Joi extension for validating MongoDB ObjectIDs in your validation schemas.
-
-[![npm version](https://img.shields.io/npm/v/joi-objectid-extension.svg)](https://www.npmjs.com/package/joi-objectid-extension)
-[![License](https://img.shields.io/npm/l/joi-objectid-extension.svg)](https://github.com/yourusername/joi-objectid-extension/blob/main/LICENSE)
 
 ## Features
 
@@ -20,9 +17,9 @@ A Joi extension for validating MongoDB ObjectIDs in your validation schemas.
 ## Installation
 
 ```bash
-npm install joi-objectid-extension --save
+npm install joi-objectid-ext --save
 # or
-yarn add joi-objectid-extension
+yarn add joi-objectid-ext
 ```
 
 ## Usage
@@ -31,7 +28,7 @@ yarn add joi-objectid-extension
 
 ```typescript
 import Joi from "joi";
-import { extendJoiWithObjectId } from "joi-objectid-extension";
+import { extendJoiWithObjectId } from "joi-objectid-ext";
 
 // Extend Joi with the ObjectId type
 const ExtendedJoi = extendJoiWithObjectId(Joi);
@@ -61,7 +58,7 @@ const result2 = schema.validate({
 ```typescript
 import Joi from "joi";
 import { ObjectId } from "mongodb";
-import { extendJoiWithObjectId } from "joi-objectid-extension";
+import { extendJoiWithObjectId } from "joi-objectid-ext";
 
 const ExtendedJoi = extendJoiWithObjectId(Joi);
 
@@ -82,7 +79,7 @@ const result = schema.validate({ id: objectId });
 ```typescript
 import Joi from "joi";
 import mongoose from "mongoose";
-import { extendJoiWithObjectId } from "joi-objectid-extension";
+import { extendJoiWithObjectId } from "joi-objectid-ext";
 
 const ExtendedJoi = extendJoiWithObjectId(Joi);
 
@@ -103,7 +100,7 @@ const result = schema.validate({ id: objectId });
 ```typescript
 import Joi from "joi";
 import { ObjectId } from "bson";
-import { extendJoiWithObjectId } from "joi-objectid-extension";
+import { extendJoiWithObjectId } from "joi-objectid-ext";
 
 const ExtendedJoi = extendJoiWithObjectId(Joi);
 

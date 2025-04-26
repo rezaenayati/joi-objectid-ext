@@ -1,6 +1,6 @@
 {
   "author": "Reza",
-  "name": "joi-objectid-extension",
+  "name": "joi-objectid-ext",
   "version": "1.0.0",
   "description": "A Joi extension for validating MongoDB ObjectIDs",
   "main": "dist/index.js",
